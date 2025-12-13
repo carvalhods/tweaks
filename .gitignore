@@ -21,3 +21,6 @@ result*
 
 .idea
 profile.json.gz
+
+**/.venv
+**/.DS_Store
