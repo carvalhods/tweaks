@@ -30,7 +30,7 @@ features = ["async-std"]
 [dependencies.libcosmic]
 git = "https://github.com/pop-os/libcosmic.git"
 default-features = false
-features = ["tokio", "winit", "wgpu", "about"]
+features = ["tokio", "winit", "wgpu", "about", "wayland"]
 
 [dependencies.cosmic-ext-config-templates]
 git = "https://github.com/ryanabx/cosmic-ext-config-templates"
