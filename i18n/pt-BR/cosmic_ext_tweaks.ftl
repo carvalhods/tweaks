@@ -9,6 +9,31 @@ color-schemes = Esquemas de cores
 layouts = Layouts
 shortcuts = Atalhos
 snapshots = Snapshots
+animation = Animações
+
+create-layout = Criar layout
+apply-layout = Aplicar layout
+delete-layout = Excluir layout
+layout-name = Nome do layout
+layout-name-empty = O nome do layout não pode ficar vazio.
+dock-icons = Ícones da dock
+show-window = Mostrar janela
+preview = Pré-visualizar
+layout-exists-error = Já existe um layout com este nome.
+layout-name-required = O nome é obrigatório.
+panel-properties = Propriedades do painel
+panel-position = Posição do painel
+panel-size = Tamanho do painel
+dock-properties = Propriedades da dock
+position = Posição
+extend = Estender
+size = Tamanho
+top = Topo
+bottom = Base
+left = Esquerda
+right = Direita
+enable = Habilitar
+show = Mostrar
 
 color-schemes-error = Erro ao carregar esquemas de cores
 import-color-scheme = Importar esquema de cores
@@ -22,30 +47,42 @@ open-link = Abrir link
 installed = Instalado
 available = Disponível
 loading = Carregando...
-refresh = Refresh
+refresh = Atualizar
+refresh = Atualizar
 show-more = Mostrar mais
-no-color-schemes-installed = No color schemes installed
-no-color-schemes-found = No color schemes found
-by = By {$author}
-revert-old-color-scheme = Revert old color scheme
+no-color-schemes-installed = Nenhum esquema de cores instalado
+no-color-schemes-found = Nenhum esquema de cores encontrado
+by = Por {$author}
+revert-old-color-scheme = Reverter para esquema de cores antigo
+revert-old-color-scheme = Reverter para esquema de cores antigo
 
 a-z = A-Z
-most-downloaded = Most downloaded
-last-modified = Last modified
-author = Author
-search = Search
+most-downloaded = Mais baixados
+last-modified = Última modificação
+author = Autor
+search = Pesquisar
 
-show-panel = Mostrar painel
+## Panel
+show-panel = Exibir o painel
+show-dock = Exibir a dock
 force-icon-buttons-in-panel = Forçar botões com ícones no painel
-size = Size
-size-description = The height of the panel and applets
-
+size = Tamanho
+size-description = Altura do painel e dos miniaplicativos
 padding = Preenchimento
-padding-description = O preenchimento é o espaço entre o conteúdo e as bordas da dock ou do painel.
-margin = Margin
-margin-description = Margin is the space between the panel and the edges of the screen.
+padding-description = Espaço entre o conteúdo e as bordas da dock ou do painel.
+margin = Margem
+margin-description = Espaço entre o painel e as bordas da tela.
 spacing = Espaçamento
-spacing-description = O espaçamento é o espaço entre os ícones na dock ou no painel.
+spacing-description = Espaço entre os ícones na dock ou no painel.
+border-radius = Raio da borda
+border-radius-description = A circularidade da dock ou do painel.
+animation-speed = Velocidade da animação
+wait-time = Tempo de espera
+wait-time-description = Tempo que o painel leva para se ocultar depois que o cursor do mouse sai sobre ele.
+transition-time = Tempo de transição
+transition-time-description = Tempo que o painel leva para aparecer ou desaparecer.
+handle-size = Tamanho da alça
+handle-size-description = Tamanho da alça que permite redimensionar o painel.
 
 save = Salvar
 cancel = Cancelar
@@ -54,6 +91,9 @@ create = Criar
 
 navigation = Navegação
 
+
+save-current-layout = Salvar layout atual
+save-current-layout-description = Salva o layout atual para uso futuro.
 save-current-color-scheme = Salvar esquema de cores atual
 color-scheme-name = Nome do esquema de cores
 create-snapshot = Criar snapshot
@@ -71,7 +111,7 @@ user = Usuário
 
 ## Snapshots
 application-opened = Aplicativo aberto
-restore-info = Each time you open Tweaks, we save the current state of your desktop, if you ever break it, simply restore it
+restore-info = Cada vez que você abre o Tweaks, salvamos o estado atual da sua área de trabalho. Se você a corromper, basta restaurá-la.
 
 ## About
 about = Sobre
